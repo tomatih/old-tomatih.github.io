@@ -1,3 +1,3 @@
 # tomatih.github.io
 My games site experimentation
-<a href="www.wp.pl"> link </a>
+<a href="https://tomatih.github.io/"> link </a>
