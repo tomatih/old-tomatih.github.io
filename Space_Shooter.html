@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Matonix SpaceShooter</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="Resources/Main_Style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <a href="index.html"><h1 id="Title_bar"><img id="Main_logo" src="Resources/Logo.png" /></h1>
+    <h1 id="Title">Matonix Games - The Best Game Site in Exstence! </h1></a>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 400px; height: 600px"></div>
+    </div>
+  </body>
+</html>
