@@ -1,0 +1,95 @@
+#Headline
+{
+	font-size: x-large;
+	position: fixed;
+	top: 190px;
+	left: 900px;
+}
+#ButtonOne
+{
+	color: #B5E61D;
+	background-color: red;
+	border-width: 5px;
+	border-color: gray;
+	font-size: x-large;
+	position: fixed;
+	top: 500px;
+	left: 1300px; 
+}
+#ButtonTwo
+{
+	color: #B5E61D;
+	background-color: red;
+	border-width: 5px;
+	border-color: white;
+	font-size: x-large;
+	position: fixed;
+	top: 550px;
+	left: 1250px; 
+}
+#Board
+{
+	position: fixed;
+	top: 250px;
+	left: 600px;
+}
+.pos1
+{
+	position: fixed;
+	top: 250px;
+	left: 600px; 
+}
+.pos2
+{
+	position: fixed;
+	top: 250px;
+	left: 800px; 
+}
+.pos3
+{
+	position: fixed;
+	top: 250px;
+	left: 1000px; 
+}
+.pos4
+{
+	position: fixed;
+	top: 450px;
+	left: 600px; 
+}
+.pos5
+{
+	position: fixed;
+	top: 450px;
+	left: 800px; 
+}
+.pos6
+{
+	position: fixed;
+	top: 450px;
+	left: 1000px; 
+}
+.pos7
+{
+	position: fixed;
+	top: 650px;
+	left: 600px; 
+}
+.pos8
+{
+	position: fixed;
+	top: 650px;
+	left: 800px; 
+}
+.pos9
+{
+	position: fixed;
+	top: 650px;
+	left: 1000px; 
+}
+.icon
+{
+	position: fixed;
+	top: 217px;
+	left: 880px;
+}

@@ -1,0 +1,36 @@
+#Background
+{
+ position: fixed;
+ left: 250px;
+}
+.Ground
+{
+  width: 64px;
+  height: 64px;
+  position: fixed;
+}
+#Florr1
+{
+  left: 250px;
+  top: 797px;
+}
+#Florr2
+{
+	left: 314px;
+	top: 797px;
+}
+#Florr3
+{
+	left: 378px;
+	top: 797px;
+}
+#Florr4
+{
+	left: 442px;
+	top: 797px;
+}
+#Florr5
+{
+	left: 506px;
+	top: 797px;
+}

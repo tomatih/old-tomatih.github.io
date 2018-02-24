@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Matthew Games </title>
+<link rel="stylesheet" href="Resources/Main_Style.css">
+<link rel="stylesheet" href="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Style.css">
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<style>
+</style>
+</head>
+<body onload="Start()">
+<a href="index.html"><h1 id="Title_bar"><img id="Main_logo" src="Resources/Logo.png" /></h1>
+<h1 id="Title">Matthew Games - The Best Game Site in Exstence! </h1></a>
+<img id="Player1_icon" class="icon" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="20" height="20"/>
+<img hidden id="Player2_icon" class="icon" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="20" height="20"/>
+<p id="Headline"> Move </p>
+<img hidden id="Board" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Board.png" width="620px" height="620px" />
+<img hidden id="ci1" class="pos1" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci2" class="pos2" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci3" class="pos3" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci4" class="pos4" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci5" class="pos5" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci6" class="pos6" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci7" class="pos7" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci8" class="pos8" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="ci9" class="pos9" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Circle.png" width="200px" height="200px"/>
+<img hidden id="cr1" class="pos1" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr2" class="pos2" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr3" class="pos3" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr4" class="pos4" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr5" class="pos5" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr6" class="pos6" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr7" class="pos7" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr8" class="pos8" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img hidden id="cr9" class="pos9" src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Cross.png" width="200px" height="200px"/>
+<img id="h1" class="pos1" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move1()"/>
+<img id="h2" class="pos2" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move2()"/>
+<img id="h3" class="pos3" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move3()"/>
+<img id="h4" class="pos4" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move4()"/>
+<img id="h5" class="pos5" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move5()"/>
+<img id="h6" class="pos6" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move6()"/>
+<img id="h7" class="pos7" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move7()"/>
+<img id="h8" class="pos8" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move8()"/>
+<img id="h9" class="pos9" src="Resources/Tic_Tac_Toe/hitbox.png" onclick="Move9()" >
+<button id="ButtonOne" onclick="PlayerMode()"> 2 Players </button>
+<button id="ButtonTwo" onclick="ComputerMode()"> Player vs Computer </button>
+<script src="Resources/Tic_Tac_Toe/Tic_Tac_Toe_Scripts.js"></script>
+</body>
+</html>
